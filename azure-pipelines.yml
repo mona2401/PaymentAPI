@@ -7,8 +7,8 @@ pool:
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  solution: '**/mona2401.PaymentAPI.sln'
-  project: '**/mona2401.PaymentAPI.csproj'
+  solution: '**/mona2401/PaymentAPI.sln'
+  project: '**/mona2401/PaymentAPI.csproj'
 
 steps:
 - task: NuGetToolInstaller@1
